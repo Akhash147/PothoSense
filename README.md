@@ -1,6 +1,5 @@
 # 🚧 PothoSense — Smart Pothole Detection & Management System
 
-## 🏆 Why This Is A Winner
 
 PothoSense combines **smartphone sensor intelligence** with **anonymous citizen reporting** and a **powerful staff dashboard** — all for free.
 
@@ -98,24 +97,3 @@ Week 4: Integration & PWA
 
 ---
 
-## 🚀 Getting Started
-
-```bash
-# 1. Clone/open in VS Code
-
-# 2. Database
-mysql -u root -p < backend/config/schema.sql
-
-# 3. Backend
-cd backend
-npm install
-cp .env.example .env  # fill in your MySQL credentials
-npm start
-
-# 4. Frontend
-cd frontend
-npm install
-npm start
-```
-
-Open http://localhost:3000
